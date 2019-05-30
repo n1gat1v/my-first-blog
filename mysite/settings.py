@@ -26,7 +26,9 @@ SECRET_KEY = 'u8j)&9=&j0n(9%na5fc(+=d*nn#rpmloaa74#jmbm_!0=--1m4'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-     'n1gat1v.pythonanywhere.com'
+    'n1gat1v.pythonanywhere.com',
+    'localhost'
+    '127.0.0.1'
 ]
 
 
@@ -122,4 +124,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
